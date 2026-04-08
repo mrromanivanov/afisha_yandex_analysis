@@ -41,7 +41,7 @@ where
   OR p.device_type_canonical = 'desktop')
   AND e.event_type_main != 'фильм'
 
-
+select * from afisha.events e 
 
 
 
