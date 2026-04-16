@@ -27,7 +27,7 @@ where
   (p.device_type_canonical = 'mobile' 
   OR p.device_type_canonical = 'desktop')
   AND e.event_type_main != 'фильм'
-order BY p.user_id 
+order BY p.user_id, p.created_ts_msk
 
 
 
